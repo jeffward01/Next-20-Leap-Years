@@ -8,11 +8,16 @@ function leapYearCalc(year, counter) {
             console.log(year);
             year++;
             counter--;
-        } 
+        }
         else {
         year++;
-        }    
+        }
     }
 }
 
 leapYearCalc(year, counter);
+
+
+//Github:
+$ cat .gitattributes
+  *.rb linguist-language=JavaScript
